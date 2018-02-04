@@ -17,8 +17,8 @@
             SEGLog(@"[FIROptions defaultOptions].deepLinkURLScheme = %@;", deepLinkURLScheme);
         }
         
-        [FIRApp configure];
-        SEGLog(@"[FIRApp Configure]");
+        //[FIRApp configure];
+        //SEGLog(@"[FIRApp Configure]");
     }
     return self;
 }
